@@ -85,7 +85,7 @@ void PrintVector(double v[5]){
 
 void InitializeMatrix(double A[5][5]){
     for(int i = 0; i < 5;i++){
-        for(int j = 0; j < 3;j++){
+        for(int j = 0; j < 5;j++){
           A[i][j] = 0.0;
         }
     }
